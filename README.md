@@ -4,22 +4,17 @@ Web server for [Custom Web API Skill](https://learn.microsoft.com/en-us/azure/se
 ## Container
 [latestImage](https://github.com/anaregdesign/custom-skill-openai/pkgs/container/custom-skill-openai)
 
-```bash
-docker pull ghcr.io/anaregdesign/custom-skill-openai:latest
-```
+You can run this container in local with the following command:
 
 ```bash
-docker run -p 8080:8080 ghcr.io/anaregdesign/custom-skill-openai:latest
+docker run \
+  -p 8080:8080 \
+  -e AOAI_RESOURCE_NAME=your-resource-name \
+  -e AOAI_DEPLOYMENT_NAME=your-deployment-name \
+  -e AOAI_API_VERSION=2023-05-15 \
+  -e AOAI_API_KEY=your-api-key \
+  ghcr.io/anaregdesign/custom-skill-openai:latest
 ```
-
-### Environments
-* `AOAI_RESOURCE_NAME`
-* `AOAI_DEPLOYMENT_NAME`
-* `AOAI_API_VERSION`
-* `AOAI_API_KEY`
-
-### Port
-This API runs on port `8080`.
 
 ### Endoints
 * Embedding
