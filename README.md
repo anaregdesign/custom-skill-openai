@@ -1,7 +1,11 @@
 # custom-skill-openai
 Web server for [Custom Web API Skill](https://learn.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-web-api) for [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) that uses [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/) to embedding and summarizing text.
 
-## Run in local
+### Related Projects
+* [anaregdesign/go-aoai](https://github.com/anaregdesign/go-aoai)
+* [anaregdesign/custom-skill-builder](https://github.com/anaregdesign/custom-skill-builder)
+
+## Run in localhost
 [latestImage](https://github.com/anaregdesign/custom-skill-openai/pkgs/container/custom-skill-openai)
 
 You can run this container in local with the following command:
