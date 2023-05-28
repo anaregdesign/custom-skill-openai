@@ -1,5 +1,5 @@
 # custom-skill-openai
-Web server for [Custom Web API Skill](https://learn.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-web-api) for [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) that uses [OpenAI](https://openai.com/) to embedding and summarizing text.
+Web server for [Custom Web API Skill](https://learn.microsoft.com/en-us/azure/search/cognitive-search-custom-skill-web-api) for [Azure Cognitive Search](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search) that uses [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/) to embedding and summarizing text.
 
 ## Container
 [latestImage](https://github.com/anaregdesign/custom-skill-openai/pkgs/container/custom-skill-openai)
