@@ -6,7 +6,7 @@ Web server for [Custom Web API Skill](https://learn.microsoft.com/en-us/azure/se
 
 You can run this container in local with the following command:
 
-```bash
+```shell script
 docker run \
   -p 8080:8080 \
   -e AOAI_RESOURCE_NAME=your-resource-name \
